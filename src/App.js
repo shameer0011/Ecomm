@@ -1,10 +1,20 @@
 import React from "react";
-import { Header } from "./components/UI/Header/Header";
+
+import { Headerbanner } from "./components/UI/Header/Headerbanner";
+import { Logo } from "./components/UI/Header/Logo.js";
+import { Location } from './components/UI/Header/Location';
+import { Headersearch } from './components/UI/Header/Headersearch';
+
+
 
 function App() {
   return (
     <div>
-      <Header />
+
+      <Headerbanner />
+      <Logo />
+      <Location />
+      <Headersearch />
     </div>
   );
 }

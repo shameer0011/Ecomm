@@ -1,0 +1,35 @@
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+a {
+    text-decoration: none!important;
+    color: #888;
+    transition-duration: .4s;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 10%;
+    height: auto;
+}
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+}
+
+a, a:hover {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
